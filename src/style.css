@@ -1,0 +1,82 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set background color and center content */
+  body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the timer display */
+  #timer {
+    font-size: 6rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin: 2rem;
+    text-shadow: 2px 2px 4px #ccc;
+  }
+  
+  /* Style the buttons */
+  button {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 2px 4px #ccc;
+  }
+  
+  /* Change button styles on hover */
+  button:hover {
+    background-color: #222;
+    box-shadow: 4px 4px 6px #ccc;
+  }
+  
+  /* Style the start button differently */
+  #start {
+    background-color: #0c0;
+    box-shadow: 2px 2px 4px #090;
+  }
+  
+  #start:hover {
+    background-color: #090;
+    box-shadow: 4px 4px 6px #090;
+  }
+  
+  /* Style the stop button differently */
+  #stop {
+    background-color: #c00;
+    box-shadow: 2px 2px 4px #900;
+  }
+  
+  #stop:hover {
+    background-color: #900;
+    box-shadow: 4px 4px 6px #900;
+  }
+  
+  /* Style the reset button differently */
+  #reset {
+    background-color: #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    color: #333;
+  }
+  
+  #reset:hover {
+    background-color: #aaa;
+    box-shadow: 4px 4px 6px #aaa;
+    color: #fff;
+  }
+  
